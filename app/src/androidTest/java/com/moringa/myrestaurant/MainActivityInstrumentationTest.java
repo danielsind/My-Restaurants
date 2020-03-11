@@ -27,12 +27,12 @@ public class MainActivityInstrumentationTest {
 
     @Test
     public void validateEditText() {
-        onView(withId(R.id.locationEditText)).perform(typeText("Portland"))
-                .check(matches(withText("Portland")));
+        onView(withId(R.id.locationEditText)).perform(typeText("New York"))
+                .check(matches(withText("New York")));
     }
     @Test
     public void locationIsSentToRestaurantActivity(){
-        String location = "Portland";
+        String location = "New York";
         onView(withId(R.id.locationEditText)).perform(typeText(location)).perform(closeSoftKeyboard());
         try {
             // the sleep method requires to be checked and handled so we use try block
