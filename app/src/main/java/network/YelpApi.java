@@ -1,4 +1,6 @@
-package com.moringa.myrestaurant;
+package network;
+
+import com.moringa.myrestaurant.YelpBusinessesSearchResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

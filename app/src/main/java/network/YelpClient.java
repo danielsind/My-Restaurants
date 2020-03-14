@@ -1,4 +1,4 @@
-package com.moringa.myrestaurant;
+package network;
 
 import java.io.IOException;
 
